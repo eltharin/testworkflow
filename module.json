@@ -1,0 +1,34 @@
+{
+  "id": "pnjinjournal",
+  "title": "PnjInJournal",
+  "version": "#{VERSION}#",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "flags": {
+    "canUpload": true
+  },
+  "languages": [{
+    "lang": "fr",
+    "name": "Français",
+    "path": "lang/fr.json"
+  },{
+    "lang": "en",
+    "name": "Français",
+    "path": "lang/fr.json"
+  }],
+  "esmodules": ["modules/main.mjs"],
+  "description": "",
+  "authors": [{
+    "name": "eltharin",
+    "url": "YOUR WEBSITE ADDRESS HERE",
+    "email": "YOUR EMAIL ADDRESS HERE",
+    "discord": "YOUR DISCORD USERNAME HERE"
+  }],
+  "bugs": "https://github.com/eltharin/foundryvtt_pnj_in_journal/issues",
+  "readme": "https://github.com/eltharin/foundryvtt_pnj_in_journal/blob/main/README.md",
+  "license": "https://mit-license.org/",
+  "manifest": "#{VERSION}#",
+  "download": "#{DOWNLOAD}#"
+}

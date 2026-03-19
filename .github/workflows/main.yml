@@ -43,23 +43,23 @@ jobs:
                     MANIFEST: ${{ env.latest_manifest_url }}
                     DOWNLOAD: ${{ env.release_url }}
 
-#            -   name: Create archive
-#                run: |
-#                    zip                                    \
-#                      --recurse-paths                      \
-#                       ./system.zip                        \
-#                      system.json                          \
-#                      template.json                        \
-#                      README.md                            \
-#                      CHANGELOG.md                         \
-#                      LICENSE                              \
-#                      assets/                              \
-#                      fonts/                               \
-#                      images/                              \
-#                      lang/                                \
-#                      packs/                               \
-#                      templates/
-#
+            -   name: Create archive
+                run: |
+                    zip                                    \
+                      --recurse-paths                      \
+                       ./system.zip                        \
+                      system.json                          \
+                      template.json                        \
+                      README.md                            \
+                      CHANGELOG.md                         \
+                      LICENSE                              \
+                      assets/                              \
+                      fonts/                               \
+                      images/                              \
+                      lang/                                \
+                      packs/                               \
+                      templates/
+
             -   name: Update release with files
                 id: create_version_release
                 uses: ncipollo/release-action@v1

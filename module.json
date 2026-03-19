@@ -26,9 +26,9 @@
     "email": "YOUR EMAIL ADDRESS HERE",
     "discord": "YOUR DISCORD USERNAME HERE"
   }],
-  "bugs": "https://github.com/eltharin/foundryvtt_pnj_in_journal/issues",
-  "readme": "https://github.com/eltharin/foundryvtt_pnj_in_journal/blob/main/README.md",
+  "bugs": "#{URL}#/issues",
+  "readme": "#{URL}#/README.md",
   "license": "https://mit-license.org/",
-  "manifest": "#{VERSION}#",
+  "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#"
 }
